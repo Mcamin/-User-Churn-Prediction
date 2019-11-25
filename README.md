@@ -6,9 +6,9 @@
 3. [Dataset](#dataset)
 4. [Strategy](#strategy)
 5. [Methodology](#methodology)
-6. [Methodology](#implementation)
-7. [Methodology](#tuning)
-8. [Methodology](#conclusion)
+6. [Implementation](#implementation)
+7. [Tuning](#tuning)
+8. [Conclusion](#conclusion)
 
 ## Description <a name="description"></a>
 Predict customer churn with PySpark for an imaginary digital music service called Sparkify. Sparkify has a free-tier and a premium subscription plan. Users can upgrade, downgrade or cancel their service at any time. Churn means downgrading from premium to free tier or cancelling the service. If we can predict users who will churn, the company can offer them discounts and incentives to entice them to stay.
