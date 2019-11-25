@@ -11,10 +11,10 @@
 8. [Methodology](#conclusion)
 
 ## Description <a name="description"></a>
-Predict customer churn with PySpark for an imaginary digital music service called Sparkify. Sparkify has a free-tier and a premium subscription plan. Users can upgrade, downgrade or cancel their service at any time. Churn means downgradding from premium to free tier or cancelling the service. If we can predict users who will churn, the company can offer them discounts and incentives to entice them to stay.
+Predict customer churn with PySpark for an imaginary digital music service called Sparkify. Sparkify has a free-tier and a premium subscription plan. Users can upgrade, downgrade or cancel their service at any time. Churn means downgrading from premium to free tier or cancelling the service. If we can predict users who will churn, the company can offer them discounts and incentives to entice them to stay.
 
 ## Files Description <a name="files"></a>
-1. Sparkify.ipynb: The original prototype of the customer churn model trained on the local machine with the small instance of the dataset.
+1. Sparkify.ipynb: The churn model trained on the local machine with the small instance of the dataset.
 2. Results : a folder containing the exported plots as png 
 
 ## Dataset <a name="dataset"></a>
@@ -27,7 +27,7 @@ The dataset is a .json file that keeps track of timestamped events of the follow
 6. ...
 
 ## Strategy <a name="strategy"></a>
-In order to solve the problems. The whole analysis is performed using *PySpark*. We woud like to predict the **probability of user churn** There, our strategy to solve the problem is to firstly build and select supervised learning models on a mini dataset. And then it can be deployed onto cloud platforms such as IBM Watson Studio or AWS for a larger dataset.
+In order to solve the problems. The whole analysis is performed using *PySpark*. We woud like to predict the **probability of user churn**. The strategy is to solve the problem is to firstly build and select supervised learning models on a mini dataset. And then it can be deployed onto cloud platforms such as IBM Watson Studio or AWS for a larger dataset.
 
 ## Methodology <a name="methodology"></a>
 Please refer to my notebook file for detailed analysis, the whole analysis is divided into several parts
